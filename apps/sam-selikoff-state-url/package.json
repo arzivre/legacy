@@ -6,7 +6,8 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "start": "remix-serve build"
+    "start": "remix-serve build",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
     "@faker-js/faker": "^7.5.0",
